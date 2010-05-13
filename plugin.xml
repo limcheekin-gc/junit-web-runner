@@ -1,4 +1,4 @@
-<plugin name='junit-web-runner' version='0.1.0' grailsVersion='1.2.2 &gt; *'>
+<plugin name='junit-web-runner' version='0.2.0' grailsVersion='1.2.2 &gt; *'>
   <author>Lim Chee Kin</author>
   <authorEmail>limcheekin@vobject.com</authorEmail>
   <title>Grails JUnit Web Runner Plugin</title>
@@ -15,6 +15,7 @@
     <resource>UrlMappings</resource>
   </resources>
   <dependencies>
+    <plugin name='appEngine' version='0.8.8 &gt; *' />
     <resolvers>
       <resolver type='grailsPlugins' name='grailsPlugins' />
     </resolvers>

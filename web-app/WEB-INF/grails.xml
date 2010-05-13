@@ -1,8 +1,11 @@
 <grails>
   <resources>
+    <resource>org.grails.appengine.AppEngineReloadController</resource>
     <resource>BuildConfig</resource>
     <resource>DataSource</resource>
     <resource>UrlMappings</resource>
   </resources>
-  <plugins />
+  <plugins>
+    <plugin>AppEngineGrailsPlugin</plugin>
+  </plugins>
 </grails>

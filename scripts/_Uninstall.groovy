@@ -22,6 +22,6 @@
  */
 Ant.delete(dir:"${basedir}/web-app/ktrwjr")
 Ant.delete(file:"${basedir}/lib/gwt-servlet.jar")
-Ant.delete(file:"${basedir}/lib/junit-3.8.2.jar")
-Ant.delete(file:"${basedir}/lib/ktr-wjr.jar")
+Ant.delete(file:"${basedir}/lib/junit-4.8.1.jar")
+Ant.delete(file:"${basedir}/lib/ktrwjr.jar")
  

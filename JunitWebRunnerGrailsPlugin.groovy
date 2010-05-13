@@ -23,11 +23,11 @@
  */
 class JunitWebRunnerGrailsPlugin {
     // the plugin version
-    def version = "0.1.0"
+    def version = "0.2.0"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.2.2 > *"
     // the other plugins this plugin depends on
-    def dependsOn = [:]
+    def dependsOn = [appEngine: "0.8.8 > *"]
     // resources that are excluded from plugin packaging
     def pluginExcludes = [
             "grails-app/views/error.gsp"
@@ -40,9 +40,13 @@ class JunitWebRunnerGrailsPlugin {
     def title = "Grails JUnit Web Runner Plugin"
     def description = '''\\
 	Grails JUnit Web Runner Plugin is created based on Kotori Web JUnit Runner project
-	(http://code.google.com/p/kotori/) which is a JUnit Runner GWT application that 
-	helps to run in-container test cases on grails application. Test cases execution in
-	Google App Engine(GAE) Development or Production Server is supported. 
+	(http://code.google.com/p/ktrwjr/) which is a JUnit Runner GWT application that 
+	helps to run in-container test cases in Google App Engine(GAE) Development 
+	or Production Server. 
+	
+	Project Site and Documentation: http://code.google.com/p/junit-web-runner/ 
+	Demo: http://junit-web-runner.appspot.com/ktrwjr/
+	Support: http://code.google.com/p/junit-web-runner/issues/list
 	'''	
 
     // URL to the plugin's documentation
