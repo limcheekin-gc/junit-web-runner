@@ -45,7 +45,8 @@ class JunitWebRunnerGrailsPlugin {
 	or Production Server. 
 	
 	Project Site and Documentation: http://code.google.com/p/junit-web-runner/ 
-	Demo: http://junit-web-runner.appspot.com/ktrwjr/
+	Live Demo: http://junit-web-runner.appspot.com/ktrwjr/
+	Demo Source Code: http://code.google.com/p/junit-web-runner-app/
 	Support: http://code.google.com/p/junit-web-runner/issues/list
 	'''	
 
