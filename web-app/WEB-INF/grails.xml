@@ -1,0 +1,8 @@
+<grails>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+  </resources>
+  <plugins />
+</grails>
